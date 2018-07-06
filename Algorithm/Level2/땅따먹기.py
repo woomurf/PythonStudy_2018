@@ -12,3 +12,9 @@ def solution(land):
     answer = max(land[length-1][0],land[length-1][1],land[length-1][2],land[length-1][3])
 
     return answer
+
+
+
+"""
+ max(board[i][:j] + board[i][j + 1:])   # :j    j까지  j+1: j+1부터  검사 -> j는 빼고 검사한다.
+"""
