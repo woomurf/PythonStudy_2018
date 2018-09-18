@@ -11,8 +11,8 @@ driver.implicitly_wait(1)
 
 driver.get('https://everytime.kr/login')
 
-driver.find_element_by_name('userid').send_keys('dngusdnd')
-driver.find_element_by_name('password').send_keys('glglt523')
+driver.find_element_by_name('userid').send_keys('your ID')
+driver.find_element_by_name('password').send_keys('your password')
 
 driver.find_element_by_class_name('submit').click()
 
