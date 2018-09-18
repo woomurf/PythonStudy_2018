@@ -8,6 +8,7 @@ while True:
     if len(address) < 1: break
 
     url = serviceurl + urllib.parse.urlencode({'address':address})
+    # address = address 이다. ?address=지역+어쩌구&저쩌구 -> 변환 과정은 encode가 해준다.
 
     print('Retrieving: ', url)
     uh = urllib.request.urlopen(url)
